@@ -1,0 +1,62 @@
+table#redandblack {
+	width: 100%;
+	border-spacing: 1px; 
+	border:1px solid #000000;
+}
+
+table#redandblack table, tbody, tfoot, tr, th, td, a {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+table#redandblack thead th {
+	background:#000000;
+	height: 24px;
+	color: #FFFFFF;
+	font-family: Arial;
+	font-weight: bold;
+	padding: 0px 7px;
+	margin: 20px 0px 0px;
+	text-align: left; 
+}
+
+table#redandblack tbody tr { height: 24px; }
+
+table#redandblack tbody tr.par { background: #ffffff; }
+
+table#redandblack tbody tr.impar { background: #f0f0f0; }
+
+table#redandblack tbody th { 
+	!important;
+	background: url(../imagenes/bg_th.gif) left;	
+	height: 24px;
+	color: #FFFFFF;		
+}
+
+table#redandblack tbody th a { 
+	color: #FFFFFF;		
+}
+
+table#redandblack a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+	font-weight: bold;	 
+}	
+
+table#redandblack tbody tr.par:hover a	{
+	background: #800000;
+	color: #ffffff;
+}
+
+table#redandblack tbody tr.par:hover	{
+	background: #800000;
+	color: #ffffff;
+}
+
+table#redandblack tbody tr.impar:hover a	{
+	background: #000000;
+	color: #ffffff;
+}
+
+table#redandblack tbody tr.impar:hover	{
+	background: #000000;
+}
